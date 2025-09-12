@@ -1,5 +1,5 @@
 # NotificaNews
-Um simples script responsável por pegar as noticias das últimas 24h do NewsletterOficial e enviar para um canal do slack mantendo todos bem informados
+Um simples script responsável por pegar as notícias das últimas 24h do NewsletterOficial e enviar para um canal do Slack mantendo todos bem informados
 
 ![Badge concluido](http://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge)
 
