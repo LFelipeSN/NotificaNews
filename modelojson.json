@@ -1,0 +1,15 @@
+{
+    "urls":{
+        "newsletter": "https://www.tabnews.com.br/api/v1/contents/NewsletterOficial",
+        "slack": "webhook_do_slack"
+    },
+    "parametros": {
+        "strategy": "new",
+        "page": 1
+    },
+    "emojis": {
+        "jornal": "📰",
+        "link": "🔗",
+        "relógio_3": "🕒"
+    }
+}
