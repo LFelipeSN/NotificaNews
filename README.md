@@ -6,11 +6,11 @@ Um simples script responsável por pegar as noticias das últimas 24h do Newslet
 ## Indice
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
-- [Execução](#Execucao)
+- [Execução](#Execução)
 
 - [Autores](#autores)
 
-- [Créditos](#creditos)
+- [Créditos](#Créditos)
 
 ## Tecnologias Utilizadas
 - API do tabnews
@@ -31,7 +31,11 @@ ps> Remove-Item -Recurse -Force build; Remove-Item -Recurse -Force dist; Remove-
 ```
 
 ## Autores
-- [@LFelipeSN](https://www.github.com/LFelipeSN)
+<div align="left">
+  <a href="https://github.com/LFelipeSN" target="_blank">
+    <img src="https://github.com/LFelipeSN.png" width="64" height="64" alt="LFelipeSN" style="border-radius:50%;margin-top:8px;" />
+  </a>
+</div>
 
 ## Créditos
 - [Tabnews](www.tabnews.com.br)
