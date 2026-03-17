@@ -7,7 +7,7 @@ dataAtual = datetime.now(timezone.utc)
 mensagem = f"{emojis['relógio_3']} *Notícias das últimas 24 horas:*"
 
 if resposta.status_code != 200: 
-    input("Parece que ocorreu um erro ao se conectar com o servidor", resposta.status_code)
+    print("Parece que ocorreu um erro ao se conectar com o servidor", resposta.status_code)
     exit()
 
 posts = resposta.json()
@@ -24,4 +24,4 @@ for post in posts:
 print(f"Mensagem:\n {mensagem}")     
 payload = {"text": mensagem}
 resposta_mensagem = requests.post(urlSlack, json=payload)
-input(f"Reposta :: {resposta_mensagem.text}")
+print(f"Reposta :: {resposta_mensagem.text}")
