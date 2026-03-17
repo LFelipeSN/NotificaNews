@@ -17,8 +17,8 @@ Um simples script responsável por pegar as notícias das últimas 24h do Newsle
 - API do slack
 
 # Execução
-1.Altere os valores de config.py para suas configurções
-2.Execute diretamente o arquivo main.py ou crie um executável
+- Altere os valores de config.py para suas configurções
+- Execute diretamente o arquivo main.py ou crie um executável
 
 ## Criando executável com pyinstaller
 ```bash
